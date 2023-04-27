@@ -1,9 +1,22 @@
-extends base.pug
+//html coding in doc api//
+Doctype html
+html 
+    head 
+        title Flora Dance Academy||Floradance.com
+        style 
+            include ../static/style.css 
+    body 
+       nav#navbar 
+        ul 
+            div#logo
+                img(src = "/static/logo.png")
+            div#logo-print
+                |Flora
+            li #[a(href="/") Home] 
+            li #[a(href="/") Course]
+            li #[a(href="/contact") Contact]
+            li #[a(href="/") About]
 
-block style 
-    style 
-        include ../static/style.css 
-block content 
     section#introsection          
         div|Flora Dance Academy 
         div|Eat Sleep Dance Repeat
@@ -38,3 +51,6 @@ block content
                 img(src="/static/LG2.png")
             div.sponsers 
                 img(src="/static/LG3.png")
+
+    footer#footer 
+        |All Copyright Reserved@2o2o||floradance.co.in
