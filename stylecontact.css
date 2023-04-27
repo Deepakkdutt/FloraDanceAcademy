@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2.9rem;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+.myform{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: -34px 8px;
+height: 81vh;
+}
+.myinput{
+    border: rgb(249, 240, 240) 2px solid;
+    font-family: 'Pathway Extreme', sans-serif;
+width: 617px;
+padding: 12px 12px;
+margin: 12px 12px;
+text-align: center;
+border-radius: 12px;
+}
+#btn{
+    margin: 58px;
+border: red solid 2px;
+color: white;
+background-color: black;
+padding: 11px 69px;
+border-radius: 12px;
+font-size: 1.2rem;
+font-weight: bold;
+}

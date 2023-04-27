@@ -1,0 +1,56 @@
+//html coding in doc api//
+Doctype html
+html 
+    head 
+        title Flora Dance Academy||Floradance.com
+        style 
+            include ../static/style.css 
+    body 
+       nav#navbar 
+        ul 
+            div#logo
+                img(src = "/static/logo.png")
+            div#logo-print
+                |Flora
+            li #[a(href="/") Home] 
+            li #[a(href="/") Course]
+            li #[a(href="/contact") Contact]
+            li #[a(href="/") About]
+
+    section#introsection          
+        div|Flora Dance Academy 
+        div|Eat Sleep Dance Repeat
+
+    section#Mission
+        h2 Our Mission 
+        div.cards
+            h3 Dance Freely
+            div.card-box
+                div.card-img
+                    img(src="/static/first.png")
+            div.text
+                    p You'll Learn A Lots Of Dance Form
+        div.cards
+            h3 variety Of Dance Forms
+            div.card-box
+                div.card-img
+                    img(src="/static/mid.png")     
+            div.text
+                    p We Have A Huge Network Of Dance Teacher With Experties
+        div.cards
+            h3 Global Acknowledgement
+            div.card-box
+                div.card-img
+                    img(src="/static/third.png")
+            div.text
+                    p Globally Famous Academy with lots of Awards
+    section#sponsersection
+        h2|Our Sponsers 
+        div#mega
+            div.sponsers 
+                img(src="/static/LG2.png")
+            div.sponsers 
+                img(src="/static/LG3.png")
+
+    footer#footer 
+        |All Copyright Reserved@2o2o||floradance.co.in
